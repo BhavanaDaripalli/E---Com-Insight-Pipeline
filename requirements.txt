@@ -1,0 +1,7 @@
+numpy==1.26.0
+pandas==2.0.0
+faker==18.9.0
+
+google-cloud-storage==2.10.0
+google-auth==2.20.0
+
