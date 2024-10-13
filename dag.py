@@ -24,7 +24,7 @@ dag = DAG('orders_data',
 
 with dag:
     run_script_task = BashOperator(
-        task_id='extract_data',
+        task_id='extract_data_gcs',
         bash_command='python /home/airflow/gcs/dags/scripts/main.py',
     )
 
